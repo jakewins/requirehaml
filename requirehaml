@@ -15,7 +15,7 @@ function parseOptions() {
 
 function compile(source, input, base) {
   writeJs(source,
-          "define(function(){return function(vars){ with(vars) { return " + Haml.optimize(Haml.compile(input)) + ";}});" , base);
+          "define(function(){return function(vars){ with(vars||{}) { return " + Haml.optimize(Haml.compile(input)) + ";}}; });" , base);
 }
 
 function writeJs(source, js, base) {

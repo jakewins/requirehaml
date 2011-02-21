@@ -22,5 +22,5 @@ Example:
 
 Becomes:
     
-    define(function(){return function(vars){ with(vars) { return "<div id=\"home\">" + title + "<ul class=\"menu\"><li>Go Home</li><li>Go Back</li></ul></div>";}});
+    define(function(){return function(vars){ with(vars||{}) { return "<div id=\"home\">" + title + "<ul class=\"menu\"><li>Go Home</li><li>Go Back</li></ul></div>";}}; });
 
