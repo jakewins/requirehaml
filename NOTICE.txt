@@ -1,0 +1,12 @@
+Coffeescript-maven
+Copyright (c) 2002-2011 Jacob Hansson <jacob@voltvoodoo.com>
+
+requirehaml is released under the LGPL. See LICENSE.txt.
+
+Third party libraries
+---------------------
+
+See LICENSES.txt for full licenses.
+
+This script is based on coffeescripts CLI tool.
+Coffeescript is copyright (c) 2011 Jeremy Ashkenas, licensed under a custom license.
